@@ -27,8 +27,8 @@ class FootballClient:
         }
 # --- CONFIGURACIÓN DE APIS ---
 # API FOOTBALL (v3.football.api-sports.io)
-#API_KEY_FUTBOL = "986da4fcfadcd3669adcf2763f4eb96e"
-#BASE_URL_FUTBOL = "https://v3.football.api-sports.io"
+API_KEY_FUTBOL = "986da4fcfadcd3669adcf2763f4eb96e"
+BASE_URL_FUTBOL = "https://v3.football.api-sports.io"
 
 # BALLDONTLIE 
 API_KEY_BALLDONTLIE = "c4502107-deca-4812-84a2-bb689a2037d4"
