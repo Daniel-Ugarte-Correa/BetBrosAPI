@@ -17,11 +17,18 @@ from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
 
-
+class FootballClient:
+    def __init__(self, api_key):
+        self.base_url = BASE_URL_FUTBOL
+        self.headers = {
+            # BORRA LA VARIABLE api_key Y PON TU LLAVE REAL AQUÍ DIRECTO:
+            'x-apisports-key': "986da4fcfadcd3669adcf2763f4eb96e",
+            'x-rapidapi-host': "v3.football.api-sports.io" 
+        }
 # --- CONFIGURACIÓN DE APIS ---
 # API FOOTBALL (v3.football.api-sports.io)
-API_KEY_FUTBOL = "986da4fcfadcd3669adcf2763f4eb96e" 
-BASE_URL_FUTBOL = "https://v3.football.api-sports.io"
+#API_KEY_FUTBOL = "986da4fcfadcd3669adcf2763f4eb96e" 
+#BASE_URL_FUTBOL = "https://v3.football.api-sports.io"
 
 # BALLDONTLIE 
 API_KEY_BALLDONTLIE = "c4502107-deca-4812-84a2-bb689a2037d4" 
