@@ -20,7 +20,7 @@ from urllib3.util.retry import Retry
 
 # --- CONFIGURACIÓN DE APIS ---
 # API FOOTBALL (v3.football.api-sports.io)
-API_KEY_FUTBOL = "67e554f29d5d69dfae6502d74fcd50f3" 
+API_KEY_FUTBOL = "986da4fcfadcd3669adcf2763f4eb96e" 
 BASE_URL_FUTBOL = "https://v3.football.api-sports.io"
 
 # BALLDONTLIE 
