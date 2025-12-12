@@ -22,12 +22,12 @@ class FootballClient:
         self.base_url = BASE_URL_FUTBOL
         self.headers = {
             # BORRA LA VARIABLE api_key Y PON TU LLAVE REAL AQUÍ DIRECTO:
-            'x-apisports-key': "72ec489db00568a1d473e74197622edf",
+            'x-apisports-key': "7634bca14d8e0e140e4dc3d6c90498ed",
             'x-rapidapi-host': "v3.football.api-sports.io"
         }
 # --- CONFIGURACIÓN DE APIS ---
 # API FOOTBALL (v3.football.api-sports.io)
-API_KEY_FUTBOL = "72ec489db00568a1d473e74197622edf"
+API_KEY_FUTBOL = "7634bca14d8e0e140e4dc3d6c90498ed"
 BASE_URL_FUTBOL = "https://v3.football.api-sports.io"
 
 # BALLDONTLIE 
